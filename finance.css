@@ -1,0 +1,125 @@
+body {
+	font-family: Ariel, Helvetica, Sans-Serif;
+	font-size: 10pt;
+}
+
+/*
+form {
+	position: absolute;
+	top: 13cm;
+}
+*/
+
+table#transactions {
+	border-collapse: collapse;
+	width: 100%;
+	font-family: Ariel, Helvetica, Sans-Serif;
+	font-size: 10pt;
+}
+
+.transactions {
+	border-width: 1pt;
+	border-color: black;
+	border-style: solid;
+	padding: 2pt;
+}
+
+.totals {
+	padding: 2pt;
+	padding-top: 5pt;
+}
+	
+tr#row1 {
+	font-weight: bold;
+	background-color: #999999;
+}
+
+tr#transactions_1 {
+	background-color: #DDDDDD;
+}
+
+tr#transactions_0 {
+	background-color: #FFFFFF;
+}
+	
+td#transactions_id {
+	width: 5%;
+}
+
+td#transactions_Date {
+	width: 10%;
+}
+
+td#transactions_Amount {
+	width: 10%;
+	text-align: right;
+	padding-right: 5pt;
+}
+
+td#transactions_Category {
+	width: 15%;
+}
+
+td#transactions_Account {
+	width: 15%;
+}
+
+tr#row1 {
+	font-weight: bold;
+	background-color: #999999;
+}
+
+tr#1 {
+	background-color: #DDDDDD;
+}
+
+tr#0 {
+	background-color: #FFFFFF;
+}
+
+td#Balance {
+	width: 10%;
+	text-align: right;
+}
+
+table#nav {
+	width: 100%;
+	font-family: Ariel, Helvetica, Sans-Serif;
+	font-size: 10pt;
+	border-collapse: collapse;
+}
+
+table#totals {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 1em;
+	font-family: Ariel, Helvetica, Sans-Serif;
+	font-size: 10pt;
+}
+
+td#totals_id {
+	width: 5%;
+}
+
+td#totals_Description {
+	font-weight: bold;
+}
+
+td#totals_Date {
+	width: 10%;
+}
+
+td#totals_Amount {
+	width: 10%;
+	text-align: right;
+	padding-right: 5pt;
+}
+
+td#totals_Category {
+	width: 15%;
+}
+
+td#totals_Account {
+	width: 15%;
+}
+
